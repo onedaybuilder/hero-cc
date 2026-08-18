@@ -9,9 +9,7 @@ export default declareComponent(Experience, {
     props: {
         modelPath: props.Text({
             name: 'Model URL',
-            // TODO: replace with your jsDelivr URL once the repo is pushed, e.g.
-            // https://cdn.jsdelivr.net/gh/<github-user>/<repo>@main/public/models/fixed_new_york_highway_interstate_95.glb
-            defaultValue: 'https://cdn.jsdelivr.net/gh/<github-user>/<repo>@main/public/models/fixed_new_york_highway_interstate_95.glb',
+            defaultValue: 'https://cdn.jsdelivr.net/gh/onedaybuilder/hero-cc@main/public/models/fixed_new_york_highway_interstate_95.glb',
             tooltip: 'Publicly reachable URL to a .glb/.gltf file (e.g. hosted via jsDelivr on GitHub)',
         }),
     },
