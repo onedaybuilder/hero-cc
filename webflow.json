@@ -1,0 +1,17 @@
+{
+  "library": {
+    "name": "hero cc",
+    "components": [
+      "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
+    ],
+    "description": "hero webgl exploration",
+    "id": "hero-cc"
+  },
+  "telemetry": {
+    "global": {
+      "allowTelemetry": true,
+      "lastPrompted": 1787067994900,
+      "version": "2.4.0"
+    }
+  }
+}
